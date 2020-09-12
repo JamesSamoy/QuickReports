@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/HelpPage/Controllers/HelpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Employee/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/App.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F8D88AA-02D5-46F6-9639-14471854CB7C/9a/25df4f90/ApiController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Employee/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Employee/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7B192E5-A05F-4F14-A14A-A0D5B14AEEEB/a8/d58cda65/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Login/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DE66FF1-1FCB-4513-8463-255B392B032B/91/89ee0c66/Timer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EmployeeDataAccess/Class1.cs" />
+        <option value="$PROJECT_DIR$/App_Start/WebApiConfig.cs" />
+        <option value="$PROJECT_DIR$/Controllers/Employee.cs" />
+        <option value="$PROJECT_DIR$/Views/Employee/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/EmployeeController.cs" />
+        <option value="$PROJECT_DIR$/WindowsServices/Program.cs" />
+        <option value="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" />
+        <option value="$PROJECT_DIR$/WindowsServices/App.config" />
+        <option value="$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" />
+        <option value="$PROJECT_DIR$/Views/Employee/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" />
+        <option value="$PROJECT_DIR$/Views/Employee/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/Login.cs" />
+        <option value="$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" />
+        <option value="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" />
+        <option value="$PROJECT_DIR$/Web.config" />
+        <option value="$PROJECT_DIR$/App_Start/RouteConfig.cs" />
+        <option value="$PROJECT_DIR$/Controllers/LoginController.cs" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Content/Site.css" />
+        <option value="$PROJECT_DIR$/Content/Misc.css" />
+        <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eO38IySJm1PKXMdOX2gLDzN6A4" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.MyWebApp">
+    <configuration name="MyWebApp" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="C:/Program Files (x86)/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:MyWebApp /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/IIS Express" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyWebApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowsServices" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WindowsServices/WindowsServices.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWebApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyWebApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="MyWebApp" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyWebApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.MyWebApp" />
+        <item itemvalue=".NET Project.WindowsServices" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="" />
+      <created>1594178651919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594178651919</updated>
+      <workItem from="1594178654910" duration="1091000" />
+      <workItem from="1594961919855" duration="3024000" />
+      <workItem from="1595129753597" duration="3319000" />
+      <workItem from="1595213873524" duration="6124000" />
+      <workItem from="1595812301267" duration="4406000" />
+      <workItem from="1596326465885" duration="2588000" />
+      <workItem from="1596771705977" duration="3042000" />
+      <workItem from="1597294301912" duration="5197000" />
+      <workItem from="1597810270274" duration="9558000" />
+      <workItem from="1598067381763" duration="6683000" />
+      <workItem from="1598495357606" duration="2762000" />
+      <workItem from="1598666515448" duration="14029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1042" y="435" key="#MyWebApp" />
+    <state x="1042" y="435" key="#MyWebApp/1920.1080/2560.1440" />
+    <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080" />
+    <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080/2560.1440" />
+    <state width="413" height="465" key="DebuggerActiveHint" />
+    <state width="413" height="465" key="DebuggerActiveHint/1920.1080" />
+    <state x="582" y="125" key="FileChooserDialogImpl" />
+    <state x="582" y="125" key="FileChooserDialogImpl/1920.1080" />
+    <state x="582" y="125" key="FileChooserDialogImpl/1920.1080/2560.1440" />
+    <state width="2454" height="463" key="GridCell.Tab.0.bottom" />
+    <state width="1430" height="277" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="2454" height="463" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
+    <state width="2454" height="463" key="GridCell.Tab.0.center" />
+    <state width="1430" height="277" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="2454" height="463" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
+    <state width="2454" height="463" key="GridCell.Tab.0.left" />
+    <state width="1430" height="277" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="2454" height="463" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
+    <state width="2454" height="463" key="GridCell.Tab.0.right" />
+    <state width="1430" height="277" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="2454" height="463" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
+    <state width="1430" height="277" key="GridCell.Tab.1.bottom" />
+    <state width="1430" height="277" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.1.center" />
+    <state width="1430" height="277" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.1.left" />
+    <state width="1430" height="277" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.1.right" />
+    <state width="1430" height="277" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.2.bottom" />
+    <state width="1430" height="277" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.2.center" />
+    <state width="1430" height="277" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.2.left" />
+    <state width="1430" height="277" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.2.right" />
+    <state width="1430" height="277" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.3.bottom" />
+    <state width="1430" height="277" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.3.center" />
+    <state width="1430" height="277" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.3.left" />
+    <state width="1430" height="277" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.3.right" />
+    <state width="1430" height="277" key="GridCell.Tab.3.right/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.4.bottom" />
+    <state width="1430" height="277" key="GridCell.Tab.4.bottom/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.4.center" />
+    <state width="1430" height="277" key="GridCell.Tab.4.center/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.4.left" />
+    <state width="1430" height="277" key="GridCell.Tab.4.left/1920.1080" />
+    <state width="1430" height="277" key="GridCell.Tab.4.right" />
+    <state width="1430" height="277" key="GridCell.Tab.4.right/1920.1080" />
+    <state width="196" height="375" key="HiddenNamespacesPopup" />
+    <state width="196" height="375" key="HiddenNamespacesPopup/1920.1080/2560.1440" />
+    <state x="332" y="274" key="Rider.ProjectTemplateDialog.Size" />
+    <state x="394" y="103" key="Rider.ProjectTemplateDialog.Size/1920.1080" />
+    <state x="332" y="274" key="Rider.ProjectTemplateDialog.Size/1920.1080/2560.1440" />
+    <state x="796" y="362" key="SettingsEditor" />
+    <state x="796" y="362" key="SettingsEditor/1920.1080/2560.1440" />
+    <state x="962" y="399" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
+    <state x="962" y="399" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.1080/2560.1440" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/1920.1080" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/1920.1080/2560.1440" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" initialLine="26">
+            <startOffsets>
+              <option value="750" />
+            </startOffsets>
+            <endOffsets>
+              <option value="792" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

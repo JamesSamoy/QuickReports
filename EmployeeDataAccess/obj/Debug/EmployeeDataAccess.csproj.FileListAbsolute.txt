@@ -1,0 +1,12 @@
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csprojAssemblyReference.cache
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Users\James\Documents\RiderProjects\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
