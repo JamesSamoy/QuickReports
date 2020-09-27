@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using System.Web.Mvc;
 using EmployeeDataAccess;
@@ -17,14 +18,23 @@ namespace MyWebApp.Controllers
         {
             using (EmployeeDBEntities_Login db = new EmployeeDBEntities_Login())
             {
-                var userDetails = db.LoginCredentials
-                    .FirstOrDefault(x => x.UserName == credentials.UserName && x.Password == credentials.Password);
-                if (userDetails == null)
+                try
                 {
-                    credentials.LoginErrorMessage = "Wrong username or password.";
+                    var userDetails = db.LoginCredentials
+                    .FirstOrDefault(x => x.UserName == credentials.UserName && x.Password == credentials.Password);
+                    if (userDetails == null)
+                    {
+                        credentials.LoginErrorMessage = "Wrong username or password.";
+                        return View("Index", credentials);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    credentials.LoginErrorMessage = "Unable to find credentials.";
+                    Console.WriteLine(ex);
                     return View("Index", credentials);
                 }
-                
+
                 Session["userId"] = credentials.UserId;
                 Session["userName"] = credentials.UserName;
                 return RedirectToAction("Index", "Home");

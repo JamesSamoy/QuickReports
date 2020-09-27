@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\James\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\James\.Rider2019.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\James\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\James\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_MyWebApp.456868473.00" t="ExcludeRecursive" />
-    <e p="C:\Users\James\Documents\RiderProjects\EmployeeDataAccess" t="IncludeRecursive">
+    <e p="C:\Users\James\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_MyWebApp.272593963.00" t="ExcludeRecursive" />
+    <e p="C:\Users\James\Documents\Repositories\quickreports\EmployeeDataAccess" t="IncludeRecursive">
       <e p="App.Config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Class1.cs" t="Include" />
@@ -26,11 +28,27 @@
       <e p="LoginDataModel.tt" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
+      <e p="Product.cs" t="Include" />
+      <e p="ProductDataModel.Context.cs" t="Include" />
+      <e p="ProductDataModel.Context.tt" t="Include" />
+      <e p="ProductDataModel.cs" t="Include" />
+      <e p="ProductDataModel.Designer.cs" t="Include" />
+      <e p="ProductDataModel.edmx" t="Include" />
+      <e p="ProductDataModel.edmx.diagram" t="Include" />
+      <e p="ProductDataModel.tt" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
+      <e p="Sale.cs" t="Include" />
+      <e p="SaleDataModel.Context.cs" t="Include" />
+      <e p="SaleDataModel.Context.tt" t="Include" />
+      <e p="SaleDataModel.cs" t="Include" />
+      <e p="SaleDataModel.Designer.cs" t="Include" />
+      <e p="SaleDataModel.edmx" t="Include" />
+      <e p="SaleDataModel.edmx.diagram" t="Include" />
+      <e p="SaleDataModel.tt" t="Include" />
     </e>
-    <e p="C:\Users\James\Documents\RiderProjects\MyWebApp" t="IncludeRecursive">
+    <e p="C:\Users\James\Documents\Repositories\quickreports\MyWebApp" t="IncludeRecursive">
       <e p="App_Data" t="Include" />
       <e p="App_Start" t="Include">
         <e p="BundleConfig.cs" t="Include" />
@@ -42,6 +60,8 @@
         <e p="Api" t="Include">
           <e p="Controllers" t="Include">
             <e p="EmployeeController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
+            <e p="SaleController.cs" t="Include" />
           </e>
         </e>
         <e p="HelpPage" t="Include">
@@ -124,6 +144,7 @@
         <e p="bootstrap.css.map" t="Include" />
         <e p="bootstrap.min.css" t="Include" />
         <e p="bootstrap.min.css.map" t="Include" />
+        <e p="enter.png" t="Include" />
         <e p="Misc.css" t="Include" />
         <e p="Site.css" t="Include" />
       </e>
@@ -131,6 +152,8 @@
         <e p="EmployeeController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
         <e p="LoginController.cs" t="Include" />
+        <e p="ProductController.cs" t="Include" />
+        <e p="SaleController.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="favicon.ico" t="Include" />
@@ -175,6 +198,16 @@
           <e p="Index.cshtml" t="Include" />
         </e>
         <e p="Login" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Product" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Sale" t="Include">
+          <e p="Create.cshtml" t="Include" />
+          <e p="Edit.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">

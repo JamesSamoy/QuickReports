@@ -11,26 +11,32 @@
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
     <style>
+        body{
+            background: lightskyblue
+        }     
         #login-div{
             position: absolute;
-            width: 400px;
-            height: 300px;
-            left: 40%;
-            top: 30%;
-            border: 1px solid #ccc;
-            padding: 50px 50px;
-            background-color: dodgerblue;
+            z-index: 15;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -150px;
+            width: 300px;
+            height: 200px;
         }
         .field-validation-error{
             color: red;
         }
         
         .login-table{
-            padding: 30px 40px;
+            width: 100%;
+            padding: 10px;
         }
         
-        .login-table td{
-            padding: 5px;        
+        .login-fields{
+             height:30px; 
+             width:250px; 
+             border-style: none;
+             padding: 5px;
         }
         
         .login-input{
@@ -43,21 +49,20 @@
     @using (Html.BeginForm("Authorize", "Login", FormMethod.Post))
     {
         <table class="login-table">
+            <div style="margin-left: 25%">
+                <img rel="icon" src="/Content/enter.png" style="width:100px; height: 100px" alt="My Image" type="image/png">
+            </div>
             <tr>
                 <td></td>
-                <td style="font-family: Calibri,serif; font-size: 50px; position: center">Login</td>
-            </tr>
-            <tr>
-                <td>@Html.LabelFor(model => model.UserName)</td>
-                <td>@Html.EditorFor(model => model.UserName)</td>
+                <td>@Html.TextBoxFor(model => model.UserName, new {placeholder = "User Name", @class = "login-fields"})</td>
             </tr>
             <tr>
                 <td></td>
                 <td>@Html.ValidationMessageFor(model => model.UserName)</td>
             </tr>
             <tr class="login-input">
-                <td>@Html.LabelFor(model => model.Password)</td>
-                <td>@Html.EditorFor(model => model.Password)</td>
+                <td></td>
+                <td>@Html.TextBoxFor(model => model.Password, new {type = "password", placeholder = "Password", @class = "login-fields"})</td>
             </tr>
             <tr>
                 <td></td>
@@ -71,8 +76,7 @@
             <tr>
                 <td></td>
                 <td>
-                    <input type="submit" name="name" value="Login"/>
-                    <input type="reset" name="name" value="Clear"/>
+                    <input style="width: 260px; text-decoration: none" type="submit" name="name" value="Login"/>
                 </td>
             </tr>
         </table>

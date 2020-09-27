@@ -74,7 +74,7 @@ namespace MyWebApp.Controllers
                 client.BaseAddress = new Uri("https://localhost:44350/api/");
                 
                 //http get
-                var responseTask = client.GetAsync("employee/updateEmployee?id=" + id);
+                var responseTask = client.GetAsync("employee/get/" + id);
                 responseTask.Wait();
 
                 var result = responseTask.Result;

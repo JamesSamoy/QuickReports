@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="" />
+    <list default="true" id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MyWebApp/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyWebApp/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LoginController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApp.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Employee/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Employee/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Login/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Login/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MyWebApp.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,35 +78,40 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/HelpPage/Controllers/HelpController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WindowsServices/App.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WindowsServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Views/Employee/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/App.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.Context.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F8D88AA-02D5-46F6-9639-14471854CB7C/9a/25df4f90/ApiController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/HelpPage/Controllers/HelpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Employee/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7B192E5-A05F-4F14-A14A-A0D5B14AEEEB/a8/d58cda65/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Login/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowsServices/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F8D88AA-02D5-46F6-9639-14471854CB7C/9a/25df4f90/ApiController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/App.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7B192E5-A05F-4F14-A14A-A0D5B14AEEEB/a8/d58cda65/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5DE66FF1-1FCB-4513-8463-255B392B032B/91/89ee0c66/Timer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -81,14 +135,23 @@
         <option value="$PROJECT_DIR$/Web.config" />
         <option value="$PROJECT_DIR$/App_Start/RouteConfig.cs" />
         <option value="$PROJECT_DIR$/Controllers/LoginController.cs" />
-        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Content/Site.css" />
         <option value="$PROJECT_DIR$/Content/Misc.css" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/vcs.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1eO38IySJm1PKXMdOX2gLDzN6A4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -215,6 +278,8 @@
       <workItem from="1598067381763" duration="6683000" />
       <workItem from="1598495357606" duration="2762000" />
       <workItem from="1598666515448" duration="14029000" />
+      <workItem from="1601008148213" duration="6478000" />
+      <workItem from="1601165237369" duration="2643000" />
     </task>
     <servers />
   </component>
@@ -223,6 +288,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
@@ -237,18 +315,18 @@
     <state x="582" y="125" key="FileChooserDialogImpl" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080/2560.1440" />
-    <state width="2454" height="463" key="GridCell.Tab.0.bottom" />
-    <state width="1430" height="277" key="GridCell.Tab.0.bottom/1920.1080" />
-    <state width="2454" height="463" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
-    <state width="2454" height="463" key="GridCell.Tab.0.center" />
-    <state width="1430" height="277" key="GridCell.Tab.0.center/1920.1080" />
-    <state width="2454" height="463" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
-    <state width="2454" height="463" key="GridCell.Tab.0.left" />
-    <state width="1430" height="277" key="GridCell.Tab.0.left/1920.1080" />
-    <state width="2454" height="463" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
-    <state width="2454" height="463" key="GridCell.Tab.0.right" />
-    <state width="1430" height="277" key="GridCell.Tab.0.right/1920.1080" />
-    <state width="2454" height="463" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
+    <state width="1431" height="179" key="GridCell.Tab.0.bottom" />
+    <state width="1431" height="179" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1431" height="179" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="179" key="GridCell.Tab.0.center" />
+    <state width="1431" height="179" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1431" height="179" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
+    <state width="1431" height="179" key="GridCell.Tab.0.left" />
+    <state width="1431" height="179" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1431" height="179" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
+    <state width="1431" height="179" key="GridCell.Tab.0.right" />
+    <state width="1431" height="179" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1431" height="179" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
     <state width="1430" height="277" key="GridCell.Tab.1.bottom" />
     <state width="1430" height="277" key="GridCell.Tab.1.bottom/1920.1080" />
     <state width="1430" height="277" key="GridCell.Tab.1.center" />
