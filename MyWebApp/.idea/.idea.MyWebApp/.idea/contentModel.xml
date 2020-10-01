@@ -166,7 +166,9 @@
       </e>
       <e p="Global.asax" t="Include" />
       <e p="Global.asax.cs" t="Include" />
-      <e p="Models" t="Include" />
+      <e p="Models" t="Include">
+        <e p="EmployeeSalesDTO.cs" t="Include" />
+      </e>
       <e p="MyWebApp.csproj" t="IncludeRecursive" />
       <e p="MyWebApp.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

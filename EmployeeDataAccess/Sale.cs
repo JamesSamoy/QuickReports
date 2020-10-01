@@ -20,9 +20,15 @@ namespace EmployeeDataAccess
 
         [DisplayName("Product")]
         public Nullable<int> ProductId { get; set; }
+        
+        [NotMapped]
+        public string ProductName { get; set; }
 
         [DisplayName("Employee")]
         public Nullable<int> EmployeeId { get; set; }
+        
+        [NotMapped]
+        public string EmployeeName { get; set; }
 
         [DisplayName("Customer")]
         public string CustomerFirstName { get; set; }

@@ -29,5 +29,25 @@ CREATE TABLE LoginCredentials(
 	Password NVARCHAR(50) NULL
 );
 
+CREATE TABLE Products(
+	ProductId INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	Name NVARCHAR(100) NOT NULL,
+	Description NVARCHAR(200),
+	Price INT NOT NULL
+);
+
+CREATE TABLE Sales(
+	SaleId INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	ProductId INT FOREIGN KEY REFERENCES Products(ProductId),
+	EmployeeId INT FOREIGN KEY REFERENCES Employees(ID),
+	CustomerFirstName NVARCHAR(50) NOT NULL,
+	CustomerLastName NVARCHAR(50) NOT NULL,
+	Comment NVARCHAR(100),
+	Quantity INT NOT NULL,
+	Amount MONEY NOT NULL
+);
+
 INSERT INTO Employees (FirstName, LastName, Gender, Salary, UpdateTimeStamp) VALUES ('test', 'test', 'Male', 50000, GETDATE());
 INSERT INTO LoginCredentials VALUES ('test', 'test');
+INSERT INTO Products (Name, Description, Price) VALUES ('RC300', 'test', 50);
+INSERT INTO Sales (ProductId, EmployeeId, CustomerFirstName, CustomerLastName, Comment, Quantity, Amount) VALUES (1, 1, 'john', 'smith', 'test comment', 2, 100);

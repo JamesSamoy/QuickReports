@@ -21,12 +21,53 @@ namespace MyWebApp.Areas.Api.Controllers
                 sales = ctx.Sales.ToList();
             }
 
+            using (var ctxEmp = new EmployeeDBEntities())
+            {
+                foreach (var sale in sales)
+                {
+                    sale.EmployeeName = ctxEmp.Employees.FirstOrDefault(e => e.ID == sale.EmployeeId)?.FirstName + " " +
+                                        ctxEmp.Employees.FirstOrDefault(e => e.ID == sale.EmployeeId)?.LastName;
+                }
+            }
+
+            using (var ctxProd = new EmployeeDBEntities_Product())
+            {
+                foreach (var sale in sales)
+                {
+                    sale.ProductName = ctxProd.Products.FirstOrDefault(p => p.ProductId == sale.ProductId)?.Name;
+                }
+            }
+
             if (sales.Count == 0)
             {
                 return NotFound();
             }
 
             return Ok(sales);
+        }
+
+        [HttpGet]
+        [Route("api/sale/getEmployeeSalesTotals")]
+        public IHttpActionResult GetEmployeeSalesTotals()
+        {
+            //List<object> employeeSales = new List<object>();
+            using (var ctx = new EmployeeDBEntities_Sale())
+            {
+                var employeeSales = ctx.Sales
+                    .GroupBy(s => s.EmployeeId)
+                    .Select(sl => new
+                    {
+                        Employee = sl.FirstOrDefault().EmployeeId,
+                        saleAmount = sl.Sum(s => s.Amount)
+                    }).ToList();
+                
+                if (employeeSales.Count == 0)
+                {
+                    return NotFound();
+                }
+
+                return Ok(employeeSales);
+            }
         }
 
         [HttpGet]
@@ -138,6 +179,21 @@ namespace MyWebApp.Areas.Api.Controllers
             {
                 return ctx.Products.FirstOrDefault(p => p.ProductId == id).Price;
             }
+        }
+
+        private string GetEmployeeNameById(int id)
+        {
+            if (id != null)
+            {
+                using (var ctx = new EmployeeDBEntities())
+                {
+                    var first = ctx.Employees.FirstOrDefault(e => e.ID == id)?.FirstName;
+                    var last = ctx.Employees.FirstOrDefault(e => e.ID == id)?.LastName;
+                    return first + " " + last;
+                }
+            }
+
+            return null;
         }
     }
 }

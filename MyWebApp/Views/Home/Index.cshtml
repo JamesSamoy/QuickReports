@@ -1,6 +1,108 @@
-﻿<div class="jumbotron">
-    <h1>Register</h1>
-</div>
-<div class="row">
-    
-</div>
+﻿@{
+     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+ 
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DataFromDataBase</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () { 
+                    $.ajax({
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json", 
+                        url: '@Url.Action("EmployeeSalesInfo", "Home")',
+                        success: function (result) {
+                            google.charts.load('current', {
+                                'packages': ['corechart']
+                            });
+                            google.charts.setOnLoadCallback(function () {
+                                drawColumnChart(result);
+                            });
+                        }
+                    });
+                });
+        
+        $(document).ready(function () { 
+                            $.ajax({
+                                type: "POST",
+                                dataType: "json",
+                                contentType: "application/json", 
+                                url: '@Url.Action("ProductSalesInfo", "Home")',
+                                success: function (result) {
+                                    google.charts.load('current', {
+                                        'packages': ['corechart']
+                                    });
+                                    google.charts.setOnLoadCallback(function () {
+                                        drawLineChart(result);
+                                    });
+                                }
+                            });
+                        });
+        
+        function drawColumnChart(result) {
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'Employee');
+                    data.addColumn('number', 'Sales Amount ($)'); 
+                    var dataArray = [];
+        
+                    $.each(result, function (i, obj) {
+                        dataArray.push([obj.Employee, obj.saleAmount]);
+                    });
+                    data.addRows(dataArray);
+        
+                    var columnChartOptions = {
+                        title: "Employee Sales Performance",
+                        width: 1000,
+                        height: 400,
+                        bar: { groupWidth: "20%" },
+                    };
+        
+                    var columnChart = new google.visualization.ColumnChart(document
+                        .getElementById('columnchart_div'));
+        
+                    columnChart.draw(data, columnChartOptions);
+                }
+        
+        function drawLineChart(result) {
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'Product');
+                    data.addColumn('number', 'Sales Amount ($)');
+                    var dataArray = [];
+        
+                    $.each(result, function (i, obj) {
+                        dataArray.push([obj.Product, obj.saleAmount]);
+                    });
+                    data.addRows(dataArray);
+        
+                    var columnChartOptions = {
+                        title: "Product Sales Performance",
+                        width: 1000,
+                        height: 400,
+                        bar: { groupWidth: "20%" },
+                    };
+        
+                    var columnChart = new google.visualization.LineChart(document
+                        .getElementById('linechart_div'));
+        
+                    columnChart.draw(data, columnChartOptions);
+                }
+    </script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Sales Metrics</h1>
+        <p>Sales charts for all-time employee sales per employee and product sales per product.</p>
+    </div>
+
+    <div id="columnchart_div"></div>
+    <div id="linechart_div"></div>
+</body>
+</html>

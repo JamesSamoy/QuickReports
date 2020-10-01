@@ -2,54 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataAccess.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/EmployeeSalesDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyWebApp/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyWebApp/config/applicationhost.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LoginController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebApp.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.csproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Employee/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Employee/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Login/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Login/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Sale/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Sale/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/obj/Debug/WindowsServices.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmployeeDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/MyWebApp.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.dll.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../README.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,10 +75,13 @@
     <setting file="file://$PROJECT_DIR$/Views/Employee/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/EmployeeSalesDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Login/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Sale/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -103,11 +91,18 @@
     <setting file="file://$PROJECT_DIR$/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginDataModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F8D88AA-02D5-46F6-9639-14471854CB7C/1b/f0520c1a/ReflectedHttpActionDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4F8D88AA-02D5-46F6-9639-14471854CB7C/9a/25df4f90/ApiController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/ProductDataModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDBDataModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginDataModel.Context.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/App.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7B192E5-A05F-4F14-A14A-A0D5B14AEEEB/a8/d58cda65/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" root0="FORCE_HIGHLIGHTING" />
@@ -138,8 +133,15 @@
         <option value="$PROJECT_DIR$/Content/Site.css" />
         <option value="$PROJECT_DIR$/Content/Misc.css" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Models/EmployeeSalesDTO.cs" />
+        <option value="$PROJECT_DIR$/Models/EmployeeSalesdto.cs" />
+        <option value="$PROJECT_DIR$/Models/EmployeeSalesDto.cs" />
+        <option value="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" />
         <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Sale/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -158,7 +160,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,7 +281,10 @@
       <workItem from="1598495357606" duration="2762000" />
       <workItem from="1598666515448" duration="14029000" />
       <workItem from="1601008148213" duration="6478000" />
-      <workItem from="1601165237369" duration="2643000" />
+      <workItem from="1601165237369" duration="13905000" />
+      <workItem from="1601349138186" duration="6825000" />
+      <workItem from="1601434257090" duration="8742000" />
+      <workItem from="1601519883196" duration="319000" />
     </task>
     <servers />
   </component>
@@ -310,55 +315,71 @@
     <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
     <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080" />
     <state x="255" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.1080/2560.1440" />
-    <state width="413" height="465" key="DebuggerActiveHint" />
-    <state width="413" height="465" key="DebuggerActiveHint/1920.1080" />
+    <state width="498" height="465" key="DebuggerActiveHint" />
+    <state width="498" height="465" key="DebuggerActiveHint/1920.1080" />
     <state x="582" y="125" key="FileChooserDialogImpl" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080/2560.1440" />
-    <state width="1431" height="179" key="GridCell.Tab.0.bottom" />
-    <state width="1431" height="179" key="GridCell.Tab.0.bottom/1920.1080" />
-    <state width="1431" height="179" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
-    <state width="1431" height="179" key="GridCell.Tab.0.center" />
-    <state width="1431" height="179" key="GridCell.Tab.0.center/1920.1080" />
-    <state width="1431" height="179" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
-    <state width="1431" height="179" key="GridCell.Tab.0.left" />
-    <state width="1431" height="179" key="GridCell.Tab.0.left/1920.1080" />
-    <state width="1431" height="179" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
-    <state width="1431" height="179" key="GridCell.Tab.0.right" />
-    <state width="1431" height="179" key="GridCell.Tab.0.right/1920.1080" />
-    <state width="1431" height="179" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
-    <state width="1430" height="277" key="GridCell.Tab.1.bottom" />
-    <state width="1430" height="277" key="GridCell.Tab.1.bottom/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.1.center" />
-    <state width="1430" height="277" key="GridCell.Tab.1.center/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.1.left" />
-    <state width="1430" height="277" key="GridCell.Tab.1.left/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.1.right" />
-    <state width="1430" height="277" key="GridCell.Tab.1.right/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.2.bottom" />
-    <state width="1430" height="277" key="GridCell.Tab.2.bottom/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.2.center" />
-    <state width="1430" height="277" key="GridCell.Tab.2.center/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.2.left" />
-    <state width="1430" height="277" key="GridCell.Tab.2.left/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.2.right" />
-    <state width="1430" height="277" key="GridCell.Tab.2.right/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.3.bottom" />
-    <state width="1430" height="277" key="GridCell.Tab.3.bottom/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.3.center" />
-    <state width="1430" height="277" key="GridCell.Tab.3.center/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.3.left" />
-    <state width="1430" height="277" key="GridCell.Tab.3.left/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.3.right" />
-    <state width="1430" height="277" key="GridCell.Tab.3.right/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.4.bottom" />
-    <state width="1430" height="277" key="GridCell.Tab.4.bottom/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.4.center" />
-    <state width="1430" height="277" key="GridCell.Tab.4.center/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.4.left" />
-    <state width="1430" height="277" key="GridCell.Tab.4.left/1920.1080" />
-    <state width="1430" height="277" key="GridCell.Tab.4.right" />
-    <state width="1430" height="277" key="GridCell.Tab.4.right/1920.1080" />
+    <state width="1431" height="144" key="GridCell.Tab.0.bottom" />
+    <state width="1431" height="144" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.0.center" />
+    <state width="1431" height="144" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.0.left" />
+    <state width="1431" height="144" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.0.right" />
+    <state width="1431" height="144" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.1.bottom" />
+    <state width="1431" height="144" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.1.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.1.center" />
+    <state width="1431" height="144" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.1.center/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.1.left" />
+    <state width="1431" height="144" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.1.left/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.1.right" />
+    <state width="1431" height="144" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.1.right/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.2.bottom" />
+    <state width="1431" height="144" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.2.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.2.center" />
+    <state width="1431" height="144" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.2.center/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.2.left" />
+    <state width="1431" height="144" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.2.left/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.2.right" />
+    <state width="1431" height="144" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.2.right/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.3.bottom" />
+    <state width="1431" height="144" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.3.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.3.center" />
+    <state width="1431" height="144" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.3.center/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.3.left" />
+    <state width="1431" height="144" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.3.left/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.3.right" />
+    <state width="1431" height="144" key="GridCell.Tab.3.right/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.3.right/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.4.bottom" />
+    <state width="1431" height="144" key="GridCell.Tab.4.bottom/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.4.bottom/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.4.center" />
+    <state width="1431" height="144" key="GridCell.Tab.4.center/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.4.center/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.4.left" />
+    <state width="1431" height="144" key="GridCell.Tab.4.left/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.4.left/1920.1080/2560.1440" />
+    <state width="1431" height="144" key="GridCell.Tab.4.right" />
+    <state width="1431" height="144" key="GridCell.Tab.4.right/1920.1080" />
+    <state width="2470" height="279" key="GridCell.Tab.4.right/1920.1080/2560.1440" />
     <state width="196" height="375" key="HiddenNamespacesPopup" />
     <state width="196" height="375" key="HiddenNamespacesPopup/1920.1080/2560.1440" />
     <state x="332" y="274" key="Rider.ProjectTemplateDialog.Size" />
@@ -391,6 +412,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs</url>
+          <line>185</line>
+          <properties documentPath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" initialLine="168">
+            <startOffsets>
+              <option value="6201" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6216" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" initialLine="36">
+            <startOffsets>
+              <option value="1604" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1651" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
