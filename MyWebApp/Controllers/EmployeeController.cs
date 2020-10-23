@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Web.Mvc;
 using EmployeeDataAccess;
+using MyWebApp.Services;
 
 namespace MyWebApp.Controllers
 {
@@ -11,9 +13,8 @@ namespace MyWebApp.Controllers
     {
         public ActionResult Index()
         {
-            IEnumerable<Employee> employees = null;
-
-            using (var client = new HttpClient())
+            //IEnumerable<Employee> employees = null;
+            /*using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("https://localhost:44350/api/");
                 //HTTP GET
@@ -34,7 +35,8 @@ namespace MyWebApp.Controllers
                     employees = Enumerable.Empty<Employee>();
                     ModelState.AddModelError(string.Empty, "Server error. Please contact administrator");
                 }
-            }
+            }*/
+            var employees = GetEmployees();
             return View(employees);
         }
 
@@ -129,6 +131,51 @@ namespace MyWebApp.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+        
+        public FileResult Export()
+        {
+            StringBuilder sb = new StringBuilder();
+            var employees = GetEmployees().ToList<object>();
+            
+            employees.Insert(0, "Id" + ',' + "FirstName" + ',' + "LastName" + ',' + "Gender" + ',' + "Salary");
+            
+            for (int i = 0; i < employees.Count; i++)
+            {
+                string[] sale = new[] {employees[i].ToString()};
+                for (int j = 0; j < sale.Length; j++)
+                {
+                    //Append data with separator.
+                    sb.Append(sale[j] + ',');
+                }
+ 
+                //Append new line character.
+                sb.Append("\r\n");
+            }
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString()), "text/csv", "Employees.csv");
+        }
+
+        public IList<Employee> GetEmployees()
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44350/api/");
+                //HTTP GET
+                var responseTask = client.GetAsync("employee/get");
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (!result.IsSuccessStatusCode)
+                {
+                    ModelState.AddModelError(string.Empty, "Server error. Please contact administrator");
+                }
+                
+                var readTask = result.Content.ReadAsAsync<IList<Employee>>();
+                readTask.Wait();
+
+                return readTask.Result;
+            }
         }
     }
 }

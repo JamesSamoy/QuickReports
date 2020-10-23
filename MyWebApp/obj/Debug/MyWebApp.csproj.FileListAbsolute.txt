@@ -182,3 +182,13 @@ C:\Users\James\Documents\Repositories\quickreports\MyWebApp\obj\Debug\MyWebApp.c
 C:\Users\James\Documents\Repositories\quickreports\MyWebApp\obj\Debug\MyWebApp.csproj.CopyComplete
 C:\Users\James\Documents\Repositories\quickreports\MyWebApp\obj\Debug\MyWebApp.dll
 C:\Users\James\Documents\Repositories\quickreports\MyWebApp\obj\Debug\MyWebApp.pdb
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.AttributedModel.dll
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Convention.dll
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Hosting.dll
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Runtime.dll
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.TypedParts.dll
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.AttributedModel.xml
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Convention.xml
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Hosting.xml
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.Runtime.xml
+C:\Users\James\Documents\Repositories\quickreports\MyWebApp\bin\System.Composition.TypedParts.xml

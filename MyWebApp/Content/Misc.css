@@ -5,3 +5,12 @@
     font-size: 15px;
     list-style: none;
 }
+
+.dropdown-style{
+    width:280px; 
+    height:30px; 
+    border-radius:5px; 
+    border-color:Grey; 
+    color:Grey;
+    padding: 5px;
+}

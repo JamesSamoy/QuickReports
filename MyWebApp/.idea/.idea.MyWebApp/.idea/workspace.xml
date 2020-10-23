@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="248f66a0-a7f5-4864-8b8b-0a49842cebb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/EmployeeSalesDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/sales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/FileService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/IFileService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDataAccess/obj/Debug/EmployeeDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyWebApp/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Misc.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Misc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWebApp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Employee/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Employee/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Login/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Login/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Sale/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Sale/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Product/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Product/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Sale/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Sale/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/EmployeeDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsServices/bin/Debug/WindowsServices.exe" afterDir="false" />
@@ -31,10 +34,11 @@
       <change beforePath="$PROJECT_DIR$/bin/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MyWebApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/MyWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,16 +74,21 @@
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/EmployeeDataModel.Context.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/HelpPage/Controllers/HelpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IFileService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/FileService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Employee/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Product/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/EmployeeSalesDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Product/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Login/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Sale/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Views/Sale/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WindowsServices/App.config" root0="FORCE_HIGHLIGHTING" />
@@ -116,14 +125,12 @@
         <option value="$PROJECT_DIR$/App_Start/WebApiConfig.cs" />
         <option value="$PROJECT_DIR$/Controllers/Employee.cs" />
         <option value="$PROJECT_DIR$/Views/Employee/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/Controllers/EmployeeController.cs" />
         <option value="$PROJECT_DIR$/WindowsServices/Program.cs" />
         <option value="$PROJECT_DIR$/../EmployeeDataAccess/Employee.cs" />
         <option value="$PROJECT_DIR$/WindowsServices/App.config" />
         <option value="$PROJECT_DIR$/WindowsServices/DbUpdateMonitor.cs" />
         <option value="$PROJECT_DIR$/Views/Employee/Create.cshtml" />
         <option value="$PROJECT_DIR$/Areas/Api/Controllers/EmployeeController.cs" />
-        <option value="$PROJECT_DIR$/Views/Employee/Index.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/Login.cs" />
         <option value="$PROJECT_DIR$/../EmployeeDataAccess/LoginCredential.cs" />
         <option value="$PROJECT_DIR$/../EmployeeDataAccess/App.Config" />
@@ -131,17 +138,23 @@
         <option value="$PROJECT_DIR$/App_Start/RouteConfig.cs" />
         <option value="$PROJECT_DIR$/Controllers/LoginController.cs" />
         <option value="$PROJECT_DIR$/Content/Site.css" />
-        <option value="$PROJECT_DIR$/Content/Misc.css" />
-        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Models/EmployeeSalesDTO.cs" />
         <option value="$PROJECT_DIR$/Models/EmployeeSalesdto.cs" />
         <option value="$PROJECT_DIR$/Models/EmployeeSalesDto.cs" />
-        <option value="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" />
-        <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Sale/Index.cshtml" />
         <option value="$PROJECT_DIR$/Areas/Api/Controllers/SaleController.cs" />
+        <option value="$PROJECT_DIR$/Views/Product/Create.cshtml" />
+        <option value="$PROJECT_DIR$/../EmployeeDataAccess/Sale.cs" />
+        <option value="$PROJECT_DIR$/Content/Misc.css" />
+        <option value="$PROJECT_DIR$/Views/Sale/Create.cshtml" />
         <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Views/Sale/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Login/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Services/IFileService.cs" />
+        <option value="$PROJECT_DIR$/Services/FileService.cs" />
+        <option value="$PROJECT_DIR$/Views/Employee/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/EmployeeController.cs" />
       </list>
     </option>
   </component>
@@ -160,6 +173,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
@@ -285,6 +299,14 @@
       <workItem from="1601349138186" duration="6825000" />
       <workItem from="1601434257090" duration="8742000" />
       <workItem from="1601519883196" duration="319000" />
+      <workItem from="1601520486707" duration="345000" />
+      <workItem from="1601527591668" duration="2015000" />
+      <workItem from="1601618954937" duration="447000" />
+      <workItem from="1602395350905" duration="842000" />
+      <workItem from="1602531585921" duration="4464000" />
+      <workItem from="1602805664440" duration="9764000" />
+      <workItem from="1602972264376" duration="17562000" />
+      <workItem from="1603339853814" duration="4072000" />
     </task>
     <servers />
   </component>
@@ -320,17 +342,17 @@
     <state x="582" y="125" key="FileChooserDialogImpl" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080" />
     <state x="582" y="125" key="FileChooserDialogImpl/1920.1080/2560.1440" />
-    <state width="1431" height="144" key="GridCell.Tab.0.bottom" />
-    <state width="1431" height="144" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1431" height="204" key="GridCell.Tab.0.bottom" />
+    <state width="1431" height="204" key="GridCell.Tab.0.bottom/1920.1080" />
     <state width="2470" height="279" key="GridCell.Tab.0.bottom/1920.1080/2560.1440" />
-    <state width="1431" height="144" key="GridCell.Tab.0.center" />
-    <state width="1431" height="144" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1431" height="204" key="GridCell.Tab.0.center" />
+    <state width="1431" height="204" key="GridCell.Tab.0.center/1920.1080" />
     <state width="2470" height="279" key="GridCell.Tab.0.center/1920.1080/2560.1440" />
-    <state width="1431" height="144" key="GridCell.Tab.0.left" />
-    <state width="1431" height="144" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1431" height="204" key="GridCell.Tab.0.left" />
+    <state width="1431" height="204" key="GridCell.Tab.0.left/1920.1080" />
     <state width="2470" height="279" key="GridCell.Tab.0.left/1920.1080/2560.1440" />
-    <state width="1431" height="144" key="GridCell.Tab.0.right" />
-    <state width="1431" height="144" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1431" height="204" key="GridCell.Tab.0.right" />
+    <state width="1431" height="204" key="GridCell.Tab.0.right/1920.1080" />
     <state width="2470" height="279" key="GridCell.Tab.0.right/1920.1080/2560.1440" />
     <state width="1431" height="144" key="GridCell.Tab.1.bottom" />
     <state width="1431" height="144" key="GridCell.Tab.1.bottom/1920.1080" />
@@ -389,6 +411,8 @@
     <state x="796" y="362" key="SettingsEditor/1920.1080/2560.1440" />
     <state x="962" y="399" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
     <state x="962" y="399" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.1080/2560.1440" />
+    <state x="456" y="197" key="run.anything.popup" />
+    <state x="456" y="197" key="run.anything.popup/1920.1080" />
     <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" />
     <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/1920.1080" />
     <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/1920.1080/2560.1440" />
@@ -438,6 +462,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/HomeController.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/Controllers/HomeController.cs" initialLine="90">
+            <startOffsets>
+              <option value="1492" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1771" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

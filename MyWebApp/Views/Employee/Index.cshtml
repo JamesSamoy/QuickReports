@@ -46,3 +46,7 @@
         </td>
     </tr>
 </table>
+@using (Html.BeginForm("Export", "Employee", FormMethod.Post))
+    {
+        <button class="btn btn-md btn-primary" type="submit" id="btnSubmit"> Export Employee List </button>
+    }

@@ -5,6 +5,37 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    .dropdownlist-style{
+       width:280px; 
+       height:30px; 
+       border-radius:3px;
+       border-color:LightGrey; 
+       color:Grey;
+       padding: 5px;
+       opacity: 0.9;
+       box-shadow: 0 0 1px;
+    }
+    
+    .dropdownlist-style:focus{
+        outline: none;
+        border-color: #9ecaed;
+        box-shadow: 0 0 10px #9ecaed;
+    }
+    
+    .comment-style{
+        border-radius:5px; 
+        border-color:LightGrey
+    }
+    
+    .comment-style:focus{
+        outline: none;
+        border-color: #9ecaed;
+        box-shadow: 0 0 10px #9ecaed;
+    }
+    
+</style>
+
 <h2>Register New Sale</h2>
 
 @using (Html.BeginForm())
@@ -17,7 +48,7 @@
     <div class="form-group">
         @Html.LabelFor(model => model.ProductId, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownListFor(model => model.ProductId, new SelectList(Model.ProductCollection, "ProductId", "Name"), "Products")
+            @Html.DropDownListFor(model => model.ProductId, new SelectList(Model.ProductCollection, "ProductId", "Name"), "Products", new {@class = "dropdownlist-style"})
             @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "text-danger" })
         </div>
     </div>
@@ -25,25 +56,37 @@
     <div class="form-group">
         @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownListFor(model => model.EmployeeId, new SelectList(Model.EmployeeCollection, "ID", "FirstName"), "Employees")
+            @Html.DropDownListFor(model => model.EmployeeId, new SelectList(Model.EmployeeCollection, "ID", "FirstName"), "Employees", new {@class = "dropdownlist-style"})
             @Html.ValidationMessageFor(model => model.EmployeeId, "", new { @class = "text-danger" })
         </div>
     </div>
+    
+    <br/>
+    <br/>
 
     <div class="form-group">
         @Html.LabelFor(model => model.CustomerFirstName, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.CustomerFirstName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(model => model.CustomerFirstName, new { htmlAttributes = new { placeholder = "First Name", @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.CustomerFirstName, "", new { @class = "text-danger" })
-            @Html.EditorFor(model => model.CustomerLastName, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.CustomerLastName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(m=>m.CustomerLastName, " ", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CustomerLastName, new {htmlAttributes = new {placeholder = "Last Name", @class = "form-control"}})
+            @Html.ValidationMessageFor(model => model.CustomerLastName, "", new {@class = "text-danger"})
         </div>
     </div>
 
+    <br/>
+    <br/>
+    
     <div class="form-group">
         @Html.LabelFor(model => model.Comment, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.Comment, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.TextAreaFor(model => model.Comment, 3, 40, new { @class="comment-style" })
             @Html.ValidationMessageFor(model => model.Comment, "", new { @class = "text-danger" })
         </div>
     </div>

@@ -32,6 +32,8 @@ namespace EmployeeDataAccess
 
         [DisplayName("Customer")]
         public string CustomerFirstName { get; set; }
+        
+        [DisplayName("")]
         public string CustomerLastName { get; set; }
         public string Comment { get; set; }
         public int Quantity { get; set; }

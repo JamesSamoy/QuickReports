@@ -7,7 +7,12 @@
  
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <style>
+        button{
+            margin-left: 100px;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width"/>
     <title>DataFromDataBase</title>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -98,11 +103,23 @@
 </head>
 <body>
     <div class="jumbotron">
+        <img rel="icon" src="/Content/sales.png" style="width:200px; height: 200px; float: right; opacity: 0.1" alt="My Image" type="image/png">
         <h1>Sales Metrics</h1>
         <p>Sales charts for all-time employee sales per employee and product sales per product.</p>
+        
     </div>
 
     <div id="columnchart_div"></div>
+    @using (Html.BeginForm("ExportEmployeeSalesTotals", "Home", FormMethod.Post))
+    {
+        <button class="btn btn-md btn-primary" type="submit" id="btnSubmit"> Export Employee Data </button>
+    }
+
+    <br/>
     <div id="linechart_div"></div>
+    @using (Html.BeginForm("ExportProductSalesTotals", "Home", FormMethod.Post))
+    {
+        <button class="btn btn-md btn-primary" type="submit" id="btnSubmit"> Export Product Data </button>
+    }
 </body>
 </html>

@@ -146,6 +146,7 @@
         <e p="bootstrap.min.css.map" t="Include" />
         <e p="enter.png" t="Include" />
         <e p="Misc.css" t="Include" />
+        <e p="sales.png" t="Include" />
         <e p="Site.css" t="Include" />
       </e>
       <e p="Controllers" t="Include">
@@ -188,6 +189,10 @@
         <e p="jquery-3.4.1.slim.min.js" t="Include" />
         <e p="jquery-3.4.1.slim.min.map" t="Include" />
         <e p="modernizr-2.8.3.js" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="FileService.cs" t="Include" />
+        <e p="IFileService.cs" t="Include" />
       </e>
       <e p="Views" t="Include">
         <e p="_ViewStart.cshtml" t="Include" />
